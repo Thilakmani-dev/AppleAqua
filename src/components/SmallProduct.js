@@ -4,6 +4,7 @@ import Other from '../assets/images/other.png';
 import Ro from '../assets/images/ro.png';
 import Tank from '../assets/images/tank.png';
 import Valve from '../assets/images/valve.png';
+import Catalog from '../assets/images/catalog.png';
 
 const SmallProduct = (props) => {
   return (
@@ -20,6 +21,8 @@ const SmallProduct = (props) => {
             ? Tank
             : props.img === 'valve'
             ? Valve
+            : props.img === 'catalog'
+            ? Catalog
             : Other
         }
         alt={props.img}

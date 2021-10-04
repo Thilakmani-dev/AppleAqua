@@ -1,5 +1,6 @@
 import React from 'react';
 import BigScreen from '../components/BigScreen';
+import InfoContainer from '../components/InfoContainer';
 import Products from '../components/Products';
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <>
       <BigScreen />
       <Products />
+      <InfoContainer />
     </>
   );
 };
